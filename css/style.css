@@ -420,6 +420,12 @@ font-weight: 900;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.bigFont {
+	font-size: 4em;
+}
+}
 .btns
 {
     font-size: 14px;
