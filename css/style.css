@@ -424,6 +424,7 @@ font-weight: 900;
 /* Styles */
 .bigFont {
 	font-size: 4em;
+	color: red;
 }
 }
 .btns
