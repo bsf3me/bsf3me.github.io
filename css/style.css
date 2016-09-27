@@ -420,11 +420,35 @@ font-weight: 900;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (max-width: 480px) {
 /* Styles */
-.bigFont {
-	font-size: 3.5em;
-}
+	h1.bigFont {
+		line-height: 1;
+		font-size: 20px !important;
+	}
+	.how-works .overlay >.container {
+		padding: 10px 0 30px !important;
+	}
+	h2 {
+		font-size: 18px !important;
+	}
+	h3 {
+		font-size: 15px !important;
+	}
+	.app-board .nav-tabs {
+		margin: 0 !important;
+	}
+	.tab-content {
+		height: 180px !important;
+	}
+	.main-gallery {
+		height: 200px;
+		overflow: hidden;
+		/*display: none;*/
+	}
+	.main-gallery .overlay > .container {
+		padding: 80px;
+	}
 }
 .btns
 {
